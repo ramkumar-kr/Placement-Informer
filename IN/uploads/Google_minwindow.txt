@@ -1,0 +1,90 @@
+Original URL:
+http://www.ihas1337code.com/2010/11/finding-minimum-window-in-s-which.html
+
+
+Test cases for finding the minimum window in S which contains all elements from T
+---------------------------------------------------------------------------------
+
+Each test case is in the format of:
+
+string S    string T
+minWindowBegin minWindowEnd    minWindow
+
+
+cabeca cae
+3 5   eca
+
+cfabeca cae
+4 6   eca
+
+cabefgecdaecf cae
+9 11   aec
+
+cabwefgewcwaefcf cae
+9 12   cwae
+
+abcabdebac cda
+2 5   cabd
+
+abcabdebac cea
+6 9   ebac
+
+acbdbaab aabd
+3 6   dbaa
+
+caaec cae
+2 4   aec
+
+caae cae
+0 3   caae
+
+acbbaab aab
+3 5   baa
+
+acbba aab
+0 4   acbba
+
+adobecodebanc abc
+9 12   banc
+
+adobecodebanc abcda
+0 10   adobecodeba
+
+adobecodebanc abdbac
+0 10   adobecodeba
+
+adobecodebancbbcaa abc
+14 16   bca
+
+aaaaaaaaaaaaaaa a
+0 0   a
+
+aaaaaaaaaaaaaaa aaaaaaaaaaaaaa
+0 13   aaaaaaaaaaaaaa
+
+acccabeb ab
+4 5   ab
+
+aaabdacefaecbef abc
+3 6   bdac
+
+coobdafceeaxab abc
+3 7   bdafc
+
+of_characters_and_as aas
+14 19   and_as
+
+a a
+0 0   a
+
+a b
+No minWindow exist
+
+aa a
+0 0   a
+
+aaa aaa
+0 2   aaa
+
+aab aab
+0 2   aab
